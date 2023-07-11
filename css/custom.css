@@ -1,0 +1,27 @@
+img {
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+div.article-entry p {
+  font-family: "宋体";
+  font-size: 18px;
+}
+#article-nav-newer {
+  background-image: linear-gradient(to left, #ffffff, #eeeeee);
+}
+#article-nav-older {
+  background-image: linear-gradient(to right, #ffffff, #eeeeee);
+}
+a {
+transition: all 0.5s;
+}
+
+.widget a:hover {
+  color: #993399;
+  text-decoration: none
+  transition: color 0.3s;
+}
+p.article-more-link a:hover {
+  background: #aaaaaa;
+}
